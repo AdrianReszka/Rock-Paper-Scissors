@@ -17,10 +17,6 @@ public class RockPaperScissors {
         this.cpuPoints = 0;
     }
 
-    public void game() {
-        mainLoop();
-    }
-
     public void mainLoop() {
 
         while (playerPoints < 3 && cpuPoints < 3) {
