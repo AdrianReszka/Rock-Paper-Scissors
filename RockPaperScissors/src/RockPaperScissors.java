@@ -10,9 +10,7 @@ public class RockPaperScissors {
     private String choice;
     private String cpuChoice;
 
-    RockPaperScissors() {}
-
-    RockPaperScissors(int playerPoints, int cpuPoints, String choice, String[] options) {
+    RockPaperScissors() {
         this.playerPoints = 0;
         this.cpuPoints = 0;
     }
