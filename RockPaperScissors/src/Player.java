@@ -4,7 +4,9 @@ public class Player {
 
     private int playerPoints;
 
-    public Player() {}
+    public Player() {
+        this.playerPoints = 0;
+    }
 
     public int getPlayerPoints() {
         return playerPoints;

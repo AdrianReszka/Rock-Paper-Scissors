@@ -7,6 +7,7 @@ public class Cpu {
 
     public Cpu() {
         this.random = new Random();
+        this.cpuPoints = 0;
     }
 
     public Choice getCpuChoice() {
